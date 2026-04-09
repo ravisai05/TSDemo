@@ -41,11 +41,11 @@ console.log(`idValue: ${typeof(idValue)}`)
 
 //void
 
-function greet():void{
+function greetMe():void{
     console.log("Hello, welcome to TypeScript!")
 }   
 
-function sum(x:number,y:number):number{
+function sumOfTow(x:number,y:number):number{
     return x+y
 }
-console.log(`sum: ${sum(10.5,5)}`)
+console.log(`sum: ${sumOfTow(10.5,5)}`)
