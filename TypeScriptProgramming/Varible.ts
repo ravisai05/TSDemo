@@ -1,5 +1,4 @@
 console.log("Varibles")
-var x:number | string =10
 let studentName:string | number =123
 const id=123
 var x2="ravi"
@@ -25,9 +24,9 @@ console.log(`Is the person employed? ${isEmployed}`)
 
 //Null and Undefined
 let middleName:String |null=null
-let age:number | undefined = undefined
+let age2:number | undefined = undefined
 console.log(`middleName: ${middleName}`)
-console.log(`age: ${age}`)
+console.log(`age2: ${age2}`)
 
 //any
 let value:any="ravi"

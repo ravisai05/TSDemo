@@ -39,21 +39,21 @@ console.log(`!y:${!y}`)
 
 //ternary operator
 let age1:number=18
-let isAdult:string=age1>=18 ? "Yes" : "No"
-console.log(`Is the person an adult? ${isAdult}`)
+let isAdults:string=age1>=18 ? "Yes" : "No"
+console.log(`Is the person an adult? ${isAdults}`)
 
 //increment and decrement operator
-let count:number=0
-console.log(`count: ${count}`)
-console.log(`count++: ${count++}`)
-console.log(`++count: ${++count}`)
-console.log(`count--: ${count--}`)
-console.log(`--count: ${--count}`)                                   
+let counts:number=0
+console.log(`counts: ${counts}`)
+console.log(`counts++: ${counts++}`)
+console.log(`++counts: ${++counts}`)
+console.log(`counts--: ${counts--}`)
+console.log(`--counts: ${--counts}`)                                   
 
 //urinary operator
-let num:number=5
-console.log(`num: ${num}`)
-console.log(`-num: ${-num}`)
+let numb:number=5
+console.log(`numb: ${numb}`)
+console.log(`-numb: ${-numb}`)
 
 //binary operator
 let num1:number=10 , num2:number=20
