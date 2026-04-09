@@ -1,10 +1,10 @@
 //Function          : Functions are reusable blocks of code that perform a specific task. They can take parameters, perform operations, and return values. Functions help in organizing code, improving readability, and promoting code reusability.            
 //Function declaration
-function greet(name:string):string{
+function greets(name:string):string{
     return `Hello, ${name}!`
 }      
 //Invoking the function     
-console.log(greet("Ravi"))
+console.log(greets("Ravi"))
                                  
 //Named function expression no parameter no return type     
 function display():void{

@@ -39,7 +39,7 @@ num.forEach(function(element){
     console.log(element);
 });
 //reduce method is used to apply a function against an accumulator and each element in the array (from left to right) to reduce it to a single value. It does not modify the original array.
-let sum=num.reduce(function(accumulator, currentValue){
+let sumNew=num.reduce(function(accumulator, currentValue){
     return accumulator+currentValue;
 },0);   
 console.log(sum);
