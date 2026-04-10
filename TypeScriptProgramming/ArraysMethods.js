@@ -35,10 +35,10 @@ num.forEach(function (element) {
     console.log(element);
 });
 //reduce method is used to apply a function against an accumulator and each element in the array (from left to right) to reduce it to a single value. It does not modify the original array.
-let sum = num.reduce(function (accumulator, currentValue) {
+let sumNew = num.reduce(function (accumulator, currentValue) {
     return accumulator + currentValue;
 }, 0);
-console.log(sum);
+console.log(sumNew);
 let mul = num.reduce(function (multiplier, element) {
     return multiplier * element;
 }, 1);
@@ -52,7 +52,7 @@ let hasOdd = num.some(function (element) {
     return element % 2 != 0;
 });
 console.log(hasOdd);
-//all method is used to check if all elements in the array pass the test implemented by the provided function. It returns a boolean value and does not modify the original array.
+//every method is used to check if all elements in the array pass the test implemented by the provided function. It returns a boolean value and does not modify the original array.
 let positiveNumbers = num.every((element) => {
     return element > 0;
 });

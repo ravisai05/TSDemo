@@ -7,11 +7,11 @@ greet("Alice", (message) => {
     console.log(message);
 });
 
-function fullName(firstName: string, lastName: string, callback: (fullname:String)=>void):void{
-    const fullname=`${firstName} ${lastName}`;
-    callback(fullname);
+function fullName(firstName: string, lastName: string, callback: (fullnames:String)=>void):void{
+    const fullnames=`${firstName} ${lastName}`;
+    callback(fullnames);
 
 } 
-fullName("Ravi","sai", (fullname)=>{
-    console.log(fullname);
+fullName("Ravi","sai", (fullnames)=>{
+    console.log(fullnames);
 }); 

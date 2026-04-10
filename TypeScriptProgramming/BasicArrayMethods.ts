@@ -1,7 +1,8 @@
-let nums:number[]=[1,2,3,4,5]
-let fruit:string[]=["Apple","Banana","Cherry","Date","Elderberry"]
-console.log(nums);
-console.log(fruit); // Output: 1
+namespace ArrayMethods {
+  let nums:number[]=[1,2,3,4,5]
+  let fruit:string[]=["Apple","Banana","Cherry","Date","Elderberry"]
+  console.log(nums);
+  console.log(fruit); // Output: 1
 //length of an array
 console.log(nums.length); // Output: 5
 console.log(fruit.length);
@@ -70,3 +71,4 @@ let numsString=nums.toString();
 let fruitString=fruit.toString();
 console.log(numsString);    
 console.log(fruitString);
+}

@@ -1,4 +1,5 @@
 //list of methods in arrays
+namespace ArrayMethods {
 let fruits:string[]=["Apple","Banana","Cherry"];
 // get index of all element along with index    
 fruits.forEach(function(element,index){
@@ -42,11 +43,16 @@ num.forEach(function(element){
 let sumNew=num.reduce(function(accumulator, currentValue){
     return accumulator+currentValue;
 },0);   
-console.log(sum);
+console.log(sumNew);
 let mul=num.reduce(function(multiplier,element){
     return multiplier*element;
 },1);
 console.log(mul);
+
+let mul2=num.reduce((ele,multiplier2)=>{
+    return multiplier2*ele;                                     
+},1);
+console.log(mul2);  
 
 //some method is used to check if at least one element in the array passes the test implemented by the provided function. It returns a boolean value and does not modify the original array.
 let hasEvenNumber=num.some((element)=>{
@@ -64,3 +70,4 @@ let positiveNumbers=num.every((element)=>{
     return element>0;
 });
 console.log(positiveNumbers);
+}
